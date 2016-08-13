@@ -47,16 +47,21 @@ html, body {
 .sidebar-nav > li > a:hover,
 .dropdown-menu > li > a:hover,
 .sidebar-nav > li:active,
-.sidebar-nav > li:focus {
+.sidebar-nav > li:focus
+ {
 	color: #ffffff !important;
 	text-decoration: none !important;
 	background-color: transparent;
+}
+.sidebar-nav > li > a:focus {
+	background: #00b3ee;
 }
 .sidebar-nav > li:hover:before,
 .dropdown-menu > li:hover:before
 {
 	width: 100%;
 	-webkit-transition: width 0.2s ease-out;
+	color: #ffffff;
 }
 
 .sidebar-nav .dropdown-menu {
@@ -68,6 +73,10 @@ html, body {
 	border: none;
 	background-color: #222;
 	box-shadow: none;
+}
+.dropdown-menu > li > a {
+	height: 38px;
+    margin-left: 20px;
 }
 
 ul.dropdown-menu > li{
