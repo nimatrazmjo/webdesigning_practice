@@ -1,0 +1,11 @@
+{
+  "name": "mysite",
+  "version": "1.0.0",
+  "description": "Nimatullah Razmjo Personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nimatullah Razmjo < nimatullah razmjo@gmail.com >",
+  "license": "ISC"
+}
