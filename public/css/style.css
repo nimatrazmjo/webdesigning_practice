@@ -1,6 +1,7 @@
 html, body {
 	padding: 0;
 	margin: 0;
+	color: #ffffff;
 }
 .wrapper{
 	background: #583e7e;
@@ -77,8 +78,14 @@ html, body {
 .dropdown-menu > li > a {
 	height: 38px;
     margin-left: 20px;
+    position: relative;
+    z-index: 1;
+    line-height: 31px;
 }
 
 ul.dropdown-menu > li{
 	position: relative;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+	background-color: #00b3ee !important;	
 }
