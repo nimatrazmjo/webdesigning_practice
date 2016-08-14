@@ -2,6 +2,8 @@ html, body {
 	padding: 0;
 	margin: 0;
 	color: #ffffff;
+	-webkit-transtion :all 0.5s ease;
+			transition:all 0.5s ease;
 }
 .wrapper{
 	background: #583e7e;
@@ -14,7 +16,6 @@ html, body {
 	left: 0;
 	width: 0;
 	position: absolute;
-	transition: all 0.5s ease;
 	-webkit-transtion :all 0.5s ease;
 			transition:all 0.5s ease;
 	overflow-x: hidden;
@@ -83,6 +84,8 @@ html, body {
 	border: none;
 	background-color: #222;
 	box-shadow: none;
+	-webkit-transtion :all 0.5s ease;
+			transition:all 0.5s ease;
 }
 .dropdown-menu > li > a {
 	height: 38px;
@@ -104,14 +107,16 @@ ul.dropdown-menu > li{
 .nav-show
 {
     position: fixed;
-    top: 5px;
-    margin-left: 20px;
+    top: 24px;
     width: 40px;
-    height: 40px;
+    margin-left: 20px;
     border-radius: 10px;
     background-color: transparent;
     border: none;
+    padding: 10px;
     z-index: 2;
+    -webkit-transtion :all 0.5s ease;
+			transition:all 0.5s ease;
 }
 .is-open > .line-top,
 .is-open > .line-middle,
@@ -124,22 +129,30 @@ ul.dropdown-menu > li{
     width: 100%;
     background-color: white;
     position: absolute;
+    -webkit-transtion :all 0.5s ease;
+			transition:all 0.5s ease;
 }
 
 
 .is-closed > .line-top {
 	-webkit-transform:rotate(45deg);
 	background-color: white;
+	-webkit-transtion :all 0.5s ease;
+			transition:all 0.5s ease;
 }
 .is-closed > .line-bottom {
 	-webkit-transform:rotate(-45deg);
 	background-color: white;
+	-webkit-transtion :all 0.5s ease;
+			transition:all 0.5s ease;
 }
 .is-closed > .line-middle {
 	display: none;
 }
 .is-open {
 	-webkit-transition: all 0.3s ease-in;
+	-webkit-transtion :all 0.5s ease;
+			transition:all 0.5s ease;
 }
 .is-open > .line-middle{
 	margin-top: 7px;
@@ -173,5 +186,11 @@ ul.dropdown-menu > li{
 }
 .wrapper.toggle {
 	padding-left: 220px;
+}
+
+.line-top,
+.line-middle,
+.line-bottom {
+	margin-left: -20px;
 }
 /*** button end **/
