@@ -107,7 +107,7 @@ ul.dropdown-menu > li{
 .nav-show
 {
     position: fixed;
-    top: 10px;
+    top: -3px;
     width: 21px;
     margin-left: 26px;
     border-radius: 10px;
@@ -115,6 +115,9 @@ ul.dropdown-menu > li{
     border: none;
     padding: 10px;
     z-index: 2;
+	width: 20px;
+	height: 40px;
+	outline: none;
     -webkit-transtion :all 0.5s ease;
 			transition:all 0.5s ease;
 }
